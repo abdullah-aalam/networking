@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link  rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="text" placeholder="Email Address" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  
+    <script>
+      document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+  
+        // Get form values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+  
+        // Send the form data to the server (you can replace this with your own logic)
+        // For demonstration purposes, we'll just log the form data to the console
+        console.log("Name: " + name);
+        console.log("Email: " + email);
+        console.log("Message: " + message);
+  
+        // Reset form fields
+        document.getElementById("contact-form").reset();
+      });
+    </script>
+  </body>
+  </html>

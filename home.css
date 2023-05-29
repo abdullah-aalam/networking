@@ -1,0 +1,78 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black;
+    background-image: url(bck.jpg);
+    background-size: cover;
+  }
+  .nt{
+    text-align: center;
+  }
+  .img{
+    margin-left: 400px;
+  }
+  .img1{
+    margin-left: 800px;
+    
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+    
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #intro {
+    background-image:url(trn.avif);
+    background-size: cover;
+    color:black;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .p1{
+    color: black;
+    font-style: initial;
+  }
+  .p2{
+    color:black;
+    font-style: initial;
+  }
+  
+  #benefits {
+    background-image: url(frontpage.jpg);
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    color: #b0b0b0;
+
+  }
+  .ul{
+    font-style: italic;
+    font-size: larger;
+  }
+  
+  #tips {
+    background-color:black;
+    color: #b0b0b0;
+  }
